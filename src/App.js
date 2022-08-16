@@ -5,6 +5,7 @@ import { Provider } from "react-redux";
 import store from "./components/Redux/Store";
 import Icecream from "./components/Cake/Cake";
 import Userdata from "./components/UserS/Users";
+import Posts from "./components/posts/Posts";
 function App() {
   const style = {
     color: red,
@@ -20,6 +21,7 @@ function App() {
         <User />
         <Icecream />
         <Userdata />
+        <Posts />
       </div>
     </Provider>
   );
